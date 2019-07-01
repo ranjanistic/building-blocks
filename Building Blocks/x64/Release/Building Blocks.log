@@ -1,0 +1,35 @@
+﻿  pch.cpp
+  Customize.cpp
+e:\myprojects\building blocks\customize.cpp(36): warning C4244: 'argument': conversion from 'double' to 'DWORD', possible loss of data
+e:\myprojects\building blocks\customize.cpp(37): warning C4244: 'argument': conversion from 'double' to 'DWORD', possible loss of data
+e:\myprojects\building blocks\customize.cpp(38): warning C4244: 'argument': conversion from 'double' to 'DWORD', possible loss of data
+e:\myprojects\building blocks\customize.cpp(40): warning C4244: 'argument': conversion from 'double' to 'DWORD', possible loss of data
+  format.cpp
+e:\myprojects\building blocks\format.cpp(53): warning C4244: 'argument': conversion from 'double' to 'DWORD', possible loss of data
+e:\myprojects\building blocks\format.cpp(54): warning C4244: 'argument': conversion from 'double' to 'DWORD', possible loss of data
+e:\myprojects\building blocks\format.cpp(55): warning C4244: 'argument': conversion from 'double' to 'DWORD', possible loss of data
+e:\myprojects\building blocks\format.cpp(56): warning C4244: 'argument': conversion from 'double' to 'DWORD', possible loss of data
+  MatrixUtility.cpp
+e:\myprojects\building blocks\matrixutility.cpp(29): warning C4102: 'other': unreferenced label
+  Probably.cpp
+e:\myprojects\building blocks\probably.cpp(188): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+e:\myprojects\building blocks\probably.cpp(198): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+e:\myprojects\building blocks\probably.cpp(303): warning C4102: 'limitexceeded': unreferenced label
+e:\myprojects\building blocks\probably.cpp(10): warning C4244: 'argument': conversion from 'T' to 'DWORD', possible loss of data
+          with
+          [
+              T=double
+          ]
+  e:\myprojects\building blocks\probably.cpp(349): note: see reference to function template instantiation 'auto time<double>(T)' being compiled
+          with
+          [
+              T=double
+          ]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winuser.rh(1434): warning RC4005: 'IDOK' : redefinition
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winuser.rh(1435): warning RC4005: 'IDCANCEL' : redefinition
+  
+  Generating code
+  All 191 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  Building Blocks.vcxproj -> E:\myprojects\x64\Release\Building Blocks.exe
