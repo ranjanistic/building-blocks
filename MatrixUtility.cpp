@@ -1,32 +1,31 @@
 #include "pch.h"
-#include"fstream"
-#include"iostream"
-#include"Windows.h"
-#include"stdio.h"
-#include"conio.h"
+#include "fstream"
+#include "iostream"
+#include "Windows.h"
+#include "stdio.h"
+#include "conio.h"
 using namespace std;
 void gotoxy(int, int);
 void colour(int, int);
 void multimatrix(void);
 #define time(x) Sleep(x*1000)
-class matric
-{
-private:
-	int x, y, m[50][60];
-public:
-	matric()
-	{
-		x = 0;
-		y = 0;
-		m[0][0] = 0;
-	}
-	void transp(void);
-	void getmat(void);
-	void deter(void);
+class matric{
+	private:
+		int x, y, m[50][60];
+	public:
+		matric()
+		{
+			x = 0;
+			y = 0;
+			m[0][0] = 0;
+		}
+		void transp(void);
+		void getmat(void);
+		void deter(void);
 }mat;
-void matrice()
-{
-other:
+
+void matrice(){
+	other:
 	colour(7, 1);
 	system("cls");
 	gotoxy(52, 1);cout << "|choose from options|";
@@ -35,28 +34,25 @@ other:
 	cout << " 3) Determinant\n";
 	cout << " 4) Fun\n";
 	cout << " 5) Multidimensional\n";
-	switch (_getch())
-	{
-	case '1': mat.getmat();mat.transp(); break;
-	case '2': cout << "\n Wierd flex but okay."; _getch(); break;
-	case '3':mat.getmat();mat.deter();break;
-	case '4': cout << "\n Am I a joke to you?";_getch(); break;
-	case '5': multimatrix();
-	case 'b':break;
-	case 'x': exit(1);
-	default: matrice();
+	switch (_getch()){
+		case '1': mat.getmat();mat.transp(); break;
+		case '2': cout << "\n Wierd flex but okay."; _getch(); break;
+		case '3':mat.getmat();mat.deter();break;
+		case '4': cout << "\n Am I a joke to you?";_getch(); break;
+		case '5': multimatrix();
+		case 'b':break;
+		case 'x': exit(1);
+		default: matrice();
 	}
 }
-void matric::getmat()
-{
+void matric::getmat(){
 	system("cls");
 	int x1, y1 = 7;
 	cout << "\n First give me your matrix buddy.";
 	cout << "\n number of rows?  ";cin >> y;cout << "\n columns?  ";cin >> x;
 	
 	cout << "\n Fill your matrix.";
-	for (int R = 0;R < y;R++)
-	{
+	for (int R = 0;R < y;R++){
 		x1 = 1;
 		for (int C = 0;C < x;C++)
 		{
@@ -68,8 +64,7 @@ void matric::getmat()
 
 	}
 	y1 = 7;
-	for (int R = 0;R < y;R++)
-	{
+	for (int R = 0;R < y;R++){
 		x1 = 1;
 		for (int C = 0;C < x;C++)
 		{
@@ -81,14 +76,12 @@ void matric::getmat()
 
 	}
 }
-void matric::transp()
-{
+void matric::transp(){
 	int T[50][50];int x1, y1 = 7;
 	for (int R = 0;R < x;R++)
 		for (int C = 0;C < y;C++)
 			T[C][R]=m[R][C];
-	for (int R = 0;R <y;R++)
-	{
+	for (int R = 0;R <y;R++){
 		x1 = 1;
 		for (int C = 0;C < x;C++)
 		{
@@ -99,17 +92,12 @@ void matric::transp()
 		y1 += 1;
 	}_getch();
 }
-void matric::deter()
-{//sidebyside x,updown y
-	if (y != x)
-	{
+void matric::deter(){//sidebyside x,updown y
+	if (y != x){
 		cout << "\n Unfortunately, determination of determinant requires a square matrix (number of rows=columns). Sed.";_getch(); matrice();
-	}
-	else
-	{
+	} else{
 		int c=0, r=0;
-		if(c==0)
-		{ 
+		if(c==0){
 			m[r][c] = m[r][c] * ((m[r + 1][c + 1] * m[r + 2][c + 2]) - (m[r][c + 1] * m[r + 1][c]));
 			cout << " D = "<<m[r][c]; _getch();
 		}
@@ -137,6 +125,4 @@ void multimatrix() {
 	}
 	_getch();
 	cout << sum;
-
-
 }

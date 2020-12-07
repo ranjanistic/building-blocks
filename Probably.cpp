@@ -1,27 +1,30 @@
 #include "pch.h"
-#include"iostream"
-#include"fstream"
-#include"string.h"
-#include"Windows.h"
-#include"conio.h"
-#include"cwchar"
+#include "iostream"
+#include "fstream"
+#include "string.h"
+#include "Windows.h"
+#include "conio.h"
+#include "cwchar"
+
+using namespace std;
+
 template<typename T>
+
 constexpr auto time(T x){
 	return Sleep(x * 1000);
 }
-using namespace std;
 class recarrsug{
-public:
-	int n; float ar[90];
-	void recorder(void);
+	public:
+		int n; float ar[90];
+		void recorder(void);
 
-	recarrsug(){
-		n = 0;
-		ar[0] = 0.0;
-		ar[1] = 0.0;
-		ar[2] = 0.0;
-	}
-}obj;
+		recarrsug(){
+			n = 0;
+			ar[0] = 0.0;
+			ar[1] = 0.0;
+			ar[2] = 0.0;
+		}
+} obj;
 
 void anima(void);
 void arrange(int&, float[]);
@@ -33,7 +36,8 @@ void settings(void);
 
 void recarrsug::recorder(){
 	int  g = 0, i = 0;
-	cout << "\n Enter the amount of data you want to be recorded.";Sleep(800);cout << "\a(The more this number, the better the future): ";
+	cout << "\n Enter the amount of data you want to be recorded.";Sleep(800);
+	cout << "\a(The more this number, the better the future): ";
 	cin >> n;
 	cout << "\n Enter here the data " << n << " times.";
 	while (g < n){
@@ -60,8 +64,7 @@ void recarrsug::recorder(){
 }
 
 char agan = 'n';
-void arrange(int &nn, float arr[])
-{
+void arrange(int &nn, float arr[]){
 	float count[50], eve[90], prob[90];
 	int pos[50], v = 0;
 	int num = 0, max = 0, opt = 0;
@@ -83,25 +86,20 @@ void arrange(int &nn, float arr[])
 		cout << arr[x]<<" ";
 
 	count[0] = 1;
-	for (int k = 0;k < nn;k++)
-	{
+	for (int k = 0;k < nn;k++){
 		if (arr[k] == arr[k + 1])
 			count[m]++;
-		else
-		{
-			if (v == 0)						//distinct event counter 'v'
-			{
+		else {
+			if (v == 0)						//distinct event counter 'v'{
 				eve[v] = arr[k];
 				eve[v + 1] = arr[k + 1];
 				v += 2;
 			}
-			else if (v != 0 && arr[k] == eve[v - 1])
-			{
+			else if (v != 0 && arr[k] == eve[v - 1]){
 				eve[v] = arr[k + 1];
 				v++;
 			}
-			else
-			{
+			else{
 				eve[v] = arr[k];
 				eve[v + 1] = arr[k + 1];
 			}
@@ -110,22 +108,18 @@ void arrange(int &nn, float arr[])
 		}
 	}
 	cout << "\n\n The frequency distribution is following-\n\n Events: ";
-	for (int s = 1;s < v;s++)
-	{
+	for (int s = 1;s < v;s++){
 		cout << eve[s] << " ";
 	}
 	cout << "\n Frqncy: ";
-	for (int d = 1;d < v;d++)
-	{
+	for (int d = 1;d < v;d++){
 		cout << count[d] << " ";
 	}
 	cout << "\n Prblty: ";
-	for (int h = 1;h < v;h++)
-	{
+	for (int h = 1;h < v;h++){
 		prob[h] = (count[h] / nn);
 		cout << prob[h] << " ";
 	}
-
 	for (int x = 1;x < v;x++)
 		eve[x - 1] = eve[x];
 	for (int y = 1;y < v;y++)
@@ -136,22 +130,18 @@ void arrange(int &nn, float arr[])
 	int nnn = v - 1;
 	for (int j = 0;j < nnn;j++)
 		larg[j] = prob[j];
-	for (int q = 0;q < nnn;q++)
-	{
+	for (int q = 0;q < nnn;q++){
 		for (int w = 0;w < nnn;w++)
-			if (larg[w] < larg[w + 1])
-			{
+			if (larg[w] < larg[w + 1]){
 				tem = larg[w];
 				larg[w] = larg[w + 1];
 				larg[w + 1] = tem;
 			}
 	}
 
-	for (int d = 0;d < nnn;d++)
-	{
+	for (int d = 0;d < nnn;d++){
 		for (int s = 0;s < nnn;s++)
-			if (larg[d] == prob[s])
-			{
+			if (larg[d] == prob[s]){
 				pos[b] = s;
 				b++;
 			}
@@ -168,22 +158,18 @@ void arrange(int &nn, float arr[])
 	cout << "equal pos:";
 	for (int c3 = 0;c3 < b;c3++)
 		cout << " " << pos[c3];cout << "\n";
-	if (agan != 'y')
-	{
+	if (agan != 'y'){
 		cout << "\n in predict();";
 		cout << "\n\n\a  Hey! Welcoming you to the intellisense predicting space."; time(2);
 		cout << "\a So now I'm going to ask you whether your next number is this or not."; time(2);
 		cout << "\n\n\a  Are";time(1);cout << "\a you";time(1);cout << "\a ready?";time(1);
 		cout << "\n\n\a Type the number you would like, and if it is same as I predicted, then BINGO!.";time(2);
 	}
-	else if (agan == 'y')
-	{
-		do
-		{
+	else if (agan == 'y'){
+		do{
 			cout << "\n  Is your next number " << eve[pos[max]] << "? ";
 			cin >> opt;
-			if (opt == eve[pos[max]])
-			{
+			if (opt == eve[pos[max]]){
 				cout << "\n\n\a  See, how smart I am.B-)\n";
 				obj.ar[nn] = opt;
 				nn++;
@@ -191,8 +177,7 @@ void arrange(int &nn, float arr[])
 				agan = 'y';
 				arrange(obj.n, obj.ar);
 			}
-			else if (opt != eve[pos[max]])
-			{
+			else if (opt != eve[pos[max]]){
 				cout << "\n\n  Apologies. Will try better next time.:'("; time(2);
 				cout << " Sed lyf.\n";
 				obj.ar[nn] = opt;
@@ -261,38 +246,29 @@ void testing() {
 
 	int m = 0, count[50], v =0;
 		count[0] = 1;
-	for (int k = 0;k < A_size;k++)
-	{
+	for (int k = 0;k < A_size;k++){
 		if (k == (A_size - 1)) {
 			if (A[k] != A[k - 1]) {
 				B[v] = A[k]; cout << B[v];
 				v++;
 				m++;cout << v << m;
 				count[m] = 1; cout << count[m];
-			}
-			else count[m]++;
+			} else count[m]++;
 			
-		}
-		else if (A[k] == A[k + 1])
-		{
+		} else if (A[k] == A[k + 1]){
 			count[m]++; cout << count[m];
 		}
-		else
-		{
-			if (v == 0)						//distinct event counter 'v'
-			{
+		else{
+			if (v == 0){
+				//distinct event counter 'v'
 				B[v] = A[k]; cout << B[v];
 				B[v + 1] = A[k + 1]; cout << B[v + 1];
 				v += 2; cout << v;
 				
-			}
-			else if (v != 0 && A[k] == B[v - 1])
-			{
+			} else if (v != 0 && A[k] == B[v - 1]){
 				B[v] = A[k + 1]; cout << B[v];
 				v++; cout << v;
-			}
-			else
-			{
+			} else {
 				B[v] = A[k]; cout << B[v];
 				B[v + 1] = A[k + 1]; cout << B[v + 1];
 			}
@@ -305,7 +281,6 @@ void testing() {
 	for (int g = 0; g < B_size; g++) {
 		cout << B[g] << "|";
 	}
-
 	_getch();
 	exit(0);
 }
@@ -314,8 +289,7 @@ void testing() {
 
 
 
-int main()
-{
+int main(){
 	system("mode con COLS=700");
 	ShowWindow(GetConsoleWindow(), SW_MAXIMIZE);char set = 'n', pro = 'n', ch = '0';
 
@@ -329,7 +303,7 @@ int main()
 	if (fn)
 		font(fn);
 	fs.close();anima();
-sett:
+	sett:
 	system("cls");char conch;
 	gotoxy(113, 0);colour(9, 0);cout << "[r]";colour(10, 0);cout << "[-]";colour(12, 0);cout<<"[x]";
 	gotoxy(52, 1);cout << "|Choose what you want|";
