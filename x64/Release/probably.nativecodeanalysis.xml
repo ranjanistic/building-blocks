@@ -1,0 +1,1779 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+      <FILENAME>probably.cpp</FILENAME>
+      <LINE>195</LINE>
+      <COLUMN>55</COLUMN>
+    </SFA>
+    <DEFECTCODE>6001</DEFECTCODE>
+    <DESCRIPTION>Using uninitialized memory 'eve'.</DESCRIPTION>
+    <FUNCTION>arrange</FUNCTION>
+    <DECORATED>?arrange@@YAXHQEAM@Z</DECORATED>
+    <FUNCLINE>70</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>3</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>72</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>72</LINE>
+        <COLUMN>18</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'eve' is not initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>72</LINE>
+        <COLUMN>27</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>73</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>73</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>74</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>74</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>74</LINE>
+        <COLUMN>23</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>75</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>75</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>76</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>76</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>76</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>78</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>78</LINE>
+        <COLUMN>18</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this loop, (assume 'x&lt;n' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>89</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>90</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>90</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>93</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>94</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>94</LINE>
+        <COLUMN>18</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this loop, (assume 'k&lt;n' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>120</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>121</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>121</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>125</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>126</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>126</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>130</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>131</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>131</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>137</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>137</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>139</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>139</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>141</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>141</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>143</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>144</LINE>
+        <COLUMN>3</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>145</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>145</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>147</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>147</LINE>
+        <COLUMN>18</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this loop, (assume 'q&lt;n' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>158</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>158</LINE>
+        <COLUMN>18</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this loop, (assume 'd&lt;n' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>167</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>168</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>168</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>169</LINE>
+        <COLUMN>29</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>170</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>171</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>171</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>172</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>173</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>174</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>174</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>175</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>176</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>177</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>177</LINE>
+        <COLUMN>20</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this loop, (assume 'c3&lt;b' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>178</LINE>
+        <COLUMN>30</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>180</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>181</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>181</LINE>
+        <COLUMN>81</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>182</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>182</LINE>
+        <COLUMN>88</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>183</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>183</LINE>
+        <COLUMN>27</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>183</LINE>
+        <COLUMN>36</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>183</LINE>
+        <COLUMN>52</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>183</LINE>
+        <COLUMN>61</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>183</LINE>
+        <COLUMN>80</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>184</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>189</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>189</LINE>
+        <COLUMN>101</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>192</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>193</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>193</LINE>
+        <COLUMN>24</COLUMN>
+        <KEYEVENT>
+          <ID>7</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'obj.ar[n]!=99.000000')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>195</LINE>
+        <COLUMN>55</COLUMN>
+        <KEYEVENT>
+          <ID>8</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'eve' is an In/Out argument to 'std::basic_ostream&lt;char,std::char_traits&lt;char&gt; &gt;::&lt;&lt;' (declared at c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\ostream:420)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>195</LINE>
+        <COLUMN>55</COLUMN>
+        <KEYEVENT>
+          <ID>9</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'eve' is used, but may not have been initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+      <FILENAME>probably.cpp</FILENAME>
+      <LINE>195</LINE>
+      <COLUMN>55</COLUMN>
+    </SFA>
+    <DEFECTCODE>6001</DEFECTCODE>
+    <DESCRIPTION>Using uninitialized memory 'pos'.</DESCRIPTION>
+    <FUNCTION>arrange</FUNCTION>
+    <DECORATED>?arrange@@YAXHQEAM@Z</DECORATED>
+    <FUNCLINE>70</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>3</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>72</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>72</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>72</LINE>
+        <COLUMN>27</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>73</LINE>
+        <COLUMN>5</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'pos' is not initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>73</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>74</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>74</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>74</LINE>
+        <COLUMN>23</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>75</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>75</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>76</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>76</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>76</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>78</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>78</LINE>
+        <COLUMN>18</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this loop, (assume 'x&lt;n' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>89</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>90</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>90</LINE>
+        <COLUMN>18</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this loop, (assume 'x&lt;n' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>93</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>94</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>94</LINE>
+        <COLUMN>18</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this loop, (assume 'k&lt;n' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>120</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>121</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>121</LINE>
+        <COLUMN>18</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this loop, (assume 's&lt;v' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>125</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>126</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>126</LINE>
+        <COLUMN>18</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this loop, (assume 'd&lt;v' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>130</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>131</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>131</LINE>
+        <COLUMN>18</COLUMN>
+        <KEYEVENT>
+          <ID>7</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this loop, (assume 'h&lt;v' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>137</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>137</LINE>
+        <COLUMN>18</COLUMN>
+        <KEYEVENT>
+          <ID>8</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this loop, (assume 'x&lt;v' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>139</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>139</LINE>
+        <COLUMN>18</COLUMN>
+        <KEYEVENT>
+          <ID>9</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this loop, (assume 'y&lt;v' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>141</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>141</LINE>
+        <COLUMN>18</COLUMN>
+        <KEYEVENT>
+          <ID>10</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this loop, (assume 'z&lt;v' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>143</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>144</LINE>
+        <COLUMN>3</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>145</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>145</LINE>
+        <COLUMN>18</COLUMN>
+        <KEYEVENT>
+          <ID>11</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this loop, (assume 'j&lt;n' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>147</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>147</LINE>
+        <COLUMN>18</COLUMN>
+        <KEYEVENT>
+          <ID>12</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this loop, (assume 'q&lt;n' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>158</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>158</LINE>
+        <COLUMN>18</COLUMN>
+        <KEYEVENT>
+          <ID>13</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this loop, (assume 'd&lt;n' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>167</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>168</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>168</LINE>
+        <COLUMN>18</COLUMN>
+        <KEYEVENT>
+          <ID>14</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this loop, (assume 'c&lt;n' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>169</LINE>
+        <COLUMN>29</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>170</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>171</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>171</LINE>
+        <COLUMN>20</COLUMN>
+        <KEYEVENT>
+          <ID>15</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this loop, (assume 'c1&lt;n' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>172</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>173</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>174</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>174</LINE>
+        <COLUMN>20</COLUMN>
+        <KEYEVENT>
+          <ID>16</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this loop, (assume 'c2&lt;n' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>175</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>176</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>177</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>177</LINE>
+        <COLUMN>20</COLUMN>
+        <KEYEVENT>
+          <ID>17</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this loop, (assume 'c3&lt;b' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>178</LINE>
+        <COLUMN>30</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>180</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>181</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>181</LINE>
+        <COLUMN>81</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>182</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>182</LINE>
+        <COLUMN>88</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>183</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>183</LINE>
+        <COLUMN>27</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>183</LINE>
+        <COLUMN>36</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>183</LINE>
+        <COLUMN>52</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>183</LINE>
+        <COLUMN>61</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>183</LINE>
+        <COLUMN>80</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>184</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>189</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>189</LINE>
+        <COLUMN>101</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>192</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>193</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>193</LINE>
+        <COLUMN>24</COLUMN>
+        <KEYEVENT>
+          <ID>18</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'obj.ar[n]!=99.000000')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>195</LINE>
+        <COLUMN>55</COLUMN>
+        <KEYEVENT>
+          <ID>19</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'pos' is used, but may not have been initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+      <FILENAME>probably.cpp</FILENAME>
+      <LINE>193</LINE>
+      <COLUMN>24</COLUMN>
+    </SFA>
+    <DEFECTCODE>6385</DEFECTCODE>
+    <DESCRIPTION>Reading invalid data from 'obj.ar':  the readable size is '360' bytes, but '-4' bytes may be read.</DESCRIPTION>
+    <FUNCTION>arrange</FUNCTION>
+    <DECORATED>?arrange@@YAXHQEAM@Z</DECORATED>
+    <FUNCLINE>70</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>72</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>72</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>72</LINE>
+        <COLUMN>27</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>73</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>73</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>74</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>74</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>74</LINE>
+        <COLUMN>23</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>75</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>75</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>76</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>76</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>76</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>78</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>78</LINE>
+        <COLUMN>18</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this loop, (assume 'x&lt;n' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>89</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>90</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>90</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>93</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>94</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>94</LINE>
+        <COLUMN>18</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this loop, (assume 'k&lt;n' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>120</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>121</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>121</LINE>
+        <COLUMN>18</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this loop, (assume 's&lt;v' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>125</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>126</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>126</LINE>
+        <COLUMN>18</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this loop, (assume 'd&lt;v' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>130</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>131</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>131</LINE>
+        <COLUMN>18</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this loop, (assume 'h&lt;v' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>137</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>137</LINE>
+        <COLUMN>18</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this loop, (assume 'x&lt;v' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>139</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>139</LINE>
+        <COLUMN>18</COLUMN>
+        <KEYEVENT>
+          <ID>7</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this loop, (assume 'y&lt;v' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>141</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>141</LINE>
+        <COLUMN>18</COLUMN>
+        <KEYEVENT>
+          <ID>8</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this loop, (assume 'z&lt;v' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>143</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>144</LINE>
+        <COLUMN>3</COLUMN>
+        <KEYEVENT>
+          <ID>9</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'n' may equal -1</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>145</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>145</LINE>
+        <COLUMN>18</COLUMN>
+        <KEYEVENT>
+          <ID>10</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this loop, (assume 'j&lt;n' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>147</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>147</LINE>
+        <COLUMN>18</COLUMN>
+        <KEYEVENT>
+          <ID>11</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this loop, (assume 'q&lt;n' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>158</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>158</LINE>
+        <COLUMN>18</COLUMN>
+        <KEYEVENT>
+          <ID>12</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this loop, (assume 'd&lt;n' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>167</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>168</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>168</LINE>
+        <COLUMN>18</COLUMN>
+        <KEYEVENT>
+          <ID>13</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this loop, (assume 'c&lt;n' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>169</LINE>
+        <COLUMN>29</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>170</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>171</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>171</LINE>
+        <COLUMN>20</COLUMN>
+        <KEYEVENT>
+          <ID>14</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this loop, (assume 'c1&lt;n' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>172</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>173</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>174</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>174</LINE>
+        <COLUMN>20</COLUMN>
+        <KEYEVENT>
+          <ID>15</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this loop, (assume 'c2&lt;n' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>175</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>176</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>177</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>177</LINE>
+        <COLUMN>20</COLUMN>
+        <KEYEVENT>
+          <ID>16</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this loop, (assume 'c3&lt;b' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>178</LINE>
+        <COLUMN>30</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>180</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>181</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>181</LINE>
+        <COLUMN>81</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>182</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>182</LINE>
+        <COLUMN>88</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>183</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>183</LINE>
+        <COLUMN>27</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>183</LINE>
+        <COLUMN>36</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>183</LINE>
+        <COLUMN>52</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>183</LINE>
+        <COLUMN>61</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>183</LINE>
+        <COLUMN>80</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>184</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>189</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>189</LINE>
+        <COLUMN>101</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>192</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>193</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+        <FILENAME>probably.cpp</FILENAME>
+        <LINE>193</LINE>
+        <COLUMN>24</COLUMN>
+        <KEYEVENT>
+          <ID>17</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Invalid read from 'obj.ar[-1]', (readable range is 0 to 89)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+      <FILENAME>probably.cpp</FILENAME>
+      <LINE>355</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>Return value ignored: '_getch'.</DESCRIPTION>
+    <FUNCTION>main</FUNCTION>
+    <DECORATED>main</DECORATED>
+    <FUNCLINE>220</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+      <FILENAME>probably.cpp</FILENAME>
+      <LINE>368</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>Return value ignored: '_getch'.</DESCRIPTION>
+    <FUNCTION>main</FUNCTION>
+    <DECORATED>main</DECORATED>
+    <FUNCLINE>220</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\hp\desktop\myproject\building blocks</FILEPATH>
+      <FILENAME>probably.cpp</FILENAME>
+      <LINE>375</LINE>
+      <COLUMN>65</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>Return value ignored: '_getch'.</DESCRIPTION>
+    <FUNCTION>main</FUNCTION>
+    <DECORATED>main</DECORATED>
+    <FUNCLINE>220</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>
